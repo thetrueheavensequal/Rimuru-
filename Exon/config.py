@@ -59,9 +59,9 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = "postgresql://memulsis:ghfzuk0DXS2NW4RURhV5kLV3puo3Wa5F@snuffleupagus.db.elephantsql.com/memulsis"  # sql
     DATABASH_URL = "postgresql://memulsis:ghfzuk0DXS2NW4RURhV5kLV3puo3Wa5F@snuffleupagus.db.elephantsql.com/memulsis"  # sql
     DB_URL = "postgresql://memulsis:ghfzuk0DXS2NW4RURhV5kLV3puo3Wa5F@snuffleupagus.db.elephantsql.com/memulsis"
-    MONGO_DB_URL = "mongodb+srv://plumblossmsword:<password>@komi.yg1o2ub.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
-    MONGO_URL = "mongodb+srv://plumblossmsword:<password>@komi.yg1o2ub.mongodb.net/?retryWrites=true&w=majority"
-    DB_URL2 = "mongodb+srv://plumblossmsword:<password>@komi.yg1o2ub.mongodb.net/?retryWrites=true&w=majority"  # YOUR MONGO_DB_URI
+    MONGO_DB_URL = "mongodb+srv://plumblossomsword:9fl2pP1p2I72vbS2@cluster0.oytdvq8.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
+    MONGO_URL = "mongodb+srv://plumblossomsword:9fl2pP1p2I72vbS2@cluster0.oytdvq8.mongodb.net/?retryWrites=true&w=majority"
+    DB_URL2 = "mongodb+srv://plumblossomsword:9fl2pP1p2I72vbS2@cluster0.oytdvq8.mongodb.net/?retryWrites=true&w=majority"  # YOUR MONGO_DB_URI
     ARQ_API_URL = "https://arq.hamker.in"
     BOT_API_URL = "https://api.telegram.org/bot"
     LOAD = []
