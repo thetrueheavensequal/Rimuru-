@@ -108,8 +108,8 @@ class Config(object):
     BL_CHATS = []
     MONGO_PORT = "27017"
     MONGO_DB = "EXON"
-    PHOTO = ""
-    HELP_IMG = ""
+    PHOTO = "https://te.legra.ph/file/400154519025c2513f6a6.jpg"
+    HELP_IMG = "https://telegra.ph/file/22bf4ee4be93ba31d7ecb.jpg"
     START_IMG = "https://te.legra.ph/file/20b6e74f7bc48a17d1e7f.jpg"
     TIME_API_KEY = "4ID9HHBVU5L8"
     INFOPIC = True
