@@ -38,30 +38,30 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = "983922"
-    API_HASH = "SMSMSMSAKAMAKA"
-    APP_ID = "953922"  # 2nd API_ID
-    APP_HASH = "funssnAjsjaSJns82AjajU"  # 2ns API_HASH
-    ARQ_API_KEY = "TENRCY-KDKSK-MSMSM-OXQYYO-ARQ"
-    BOT_ID = "5408158735"
-    TOKEN = "5458182410:KINGABISHNOI-UM"
-    OWNER_ID = "1452219013"
-    OPENWEATHERMAP_ID = "22322"
-    OWNER_USERNAME = "Abishnoi1M"
-    BOT_USERNAME = "Exon_Robot"
-    SUPPORT_CHAT = "AbishnoiMF"
-    UPDATES_CHANNEL = "Abishnoi_bots"
-    SUPPORT_CHANNEL = "Abishnoi_bots"
-    JOIN_LOGGER = "-1001497222182"
-    EVENT_LOGS = "-1001497222182"
-    ERROR_LOGS = "-1001497222182"
+    API_ID = "21927988"
+    API_HASH = "e18f720acdff1e5b0ec80616aecd8a5a"
+    APP_ID = "21927988"  # 2nd API_ID
+    APP_HASH = "e18f720acdff1e5b0ec80616aecd8a5a"  # 2ns API_HASH
+    ARQ_API_KEY = "QOYIDT-TJPPDA-JVVIZH-BTHMBB-ARQ"
+    BOT_ID = "5881951624"
+    TOKEN = "5881951624:AAEO1fN3lFqa61zyqrPthlYCeFIuUi46KFQ"
+    OWNER_ID = "2064735436"
+    OPENWEATHERMAP_ID = "687af7aaae4f454314ca54bfd8cddceb"
+    OWNER_USERNAME = "plumblossomsword"
+    BOT_USERNAME = "RimuruX_Bot"
+    SUPPORT_CHAT = "theoneandonlymurim"
+    UPDATES_CHANNEL = "rimurubotsnetwork"
+    SUPPORT_CHANNEL = "theoneandonlymurm"
+    JOIN_LOGGER = "-1001859171071"
+    EVENT_LOGS = "-1001859171071"
+    ERROR_LOGS = "-1001859171071"
 
-    SQLALCHEMY_DATABASE_URI = ""  # sql
-    DATABASH_URL = ""  # sql
-    DB_URL = ""
-    MONGO_DB_URL = ""  # needed for any database modules
-    MONGO_URL = ""
-    DB_URL2 = ""  # YOUR MONGO_DB_URI
+    SQLALCHEMY_DATABASE_URI = "postgresql://memulsis:ghfzuk0DXS2NW4RURhV5kLV3puo3Wa5F@snuffleupagus.db.elephantsql.com/memulsis"  # sql
+    DATABASH_URL = "postgresql://memulsis:ghfzuk0DXS2NW4RURhV5kLV3puo3Wa5F@snuffleupagus.db.elephantsql.com/memulsis"  # sql
+    DB_URL = "postgresql://memulsis:ghfzuk0DXS2NW4RURhV5kLV3puo3Wa5F@snuffleupagus.db.elephantsql.com/memulsis"
+    MONGO_DB_URL = "mongodb+srv://plumblossmsword:<password>@komi.yg1o2ub.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
+    MONGO_URL = "mongodb+srv://plumblossmsword:<password>@komi.yg1o2ub.mongodb.net/?retryWrites=true&w=majority"
+    DB_URL2 = "mongodb+srv://plumblossmsword:<password>@komi.yg1o2ub.mongodb.net/?retryWrites=true&w=majority"  # YOUR MONGO_DB_URI
     ARQ_API_URL = "https://arq.hamker.in"
     BOT_API_URL = "https://api.telegram.org/bot"
     LOAD = []
@@ -69,10 +69,10 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""
-    SPAMWATCH_SUPPORT_CHAT = "@AbishnoiMF"
+    SPAMWATCH_API = "zKSTO8g_x3qmaMrU_tiTRXibTb532qbmTKXYW3RdyW8Pq0qk1oEtqddo7HqxRp~1"
+    SPAMWATCH_SUPPORT_CHAT = "@SpamwatchSupport"
 
-    REDIS_URL = ""
+    REDIS_URL = "rediss://red-cf0rlmirrk05t6t5p3qg:RniRsIOnT6UPiAxVD2QcdaIkwRj7RUye@frankfurt-redis.render.com:6379"
 
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     DEV_USERS = get_user_list("elevated_users.json", "devs")
@@ -82,38 +82,38 @@ class Config(object):
     TIGERS = get_user_list("elevated_users.json", "tigers")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
 
-    DONATION_LINK = "https://t.me/Abishnoi1M"
+    DONATION_LINK = "https://t.me/plumblossomsword"
     CERT_PATH = None
     STRICT_GBAN = "True"
-    PORT = ""
+    PORT = "5000"
     DEL_CMDS = True
     STRICT_GBAN = True
-    WORKERS = 8
-    BAN_STICKER = ""
+    WORKERS = 10
+    BAN_STICKER = "CAACAgUAAx0CbtCy_wACBPljwrhdi9tBj1pUKc9kHu4WNjGo5gACtwgAAlIl0VT9IuTRAoPKPi0E"
     ALLOW_EXCL = True
-    CASH_API_KEY = "NAI H BRO"
-    TIME_API_KEY = "ABISHNOI"
-    WALL_API = "F-OFF"
-    AI_API_KEY = "LOVEYOU"
+    CASH_API_KEY = "6HZ09C7DZYKWBCCE"
+    TIME_API_KEY = "4ID9HHBVU5L8"
+    WALL_API = "6950f5ds6a3"
+    AI_API_KEY = ""
     BL_CHATS = []
     SPAMMERS = None
-    SPAMWATCH_API = ""
+    SPAMWATCH_API = "zKSTO8g_x3qmaMrU_tiTRXibTb532qbmTKXYW3RdyW8Pq0qk1oEtqddo7HqxRp~1"
     ALLOW_CHATS = None
     TEMP_DOWNLOAD_DIRECTORY = "./"
     HEROKU_APP_NAME = ""
     HEROKU_API_KEY = ""
-    REM_BG_API_KEY = "LSdLgCceYz8vNqFgJVzrkDgR"
-    LASTFM_API_KEY = "FMLODA"
-    CF_API_KEY = "KISS"
+    REM_BG_API_KEY = "K2dsdsYma6cZx"
+    LASTFM_API_KEY = "9d73c8bfc43204b8087a8d4cb8f6dcb6"
+    CF_API_KEY = ""
     BL_CHATS = []
     MONGO_PORT = "27017"
     MONGO_DB = "EXON"
-    PHOTO = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    HELP_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    START_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    TIME_API_KEY = "5LB4TAKPEKZ0"
-    INFOPIC = False
-    GENIUS_API_TOKEN = "28jwoKAkskaSjsnsksAjnwjUJwj"
+    PHOTO = ""
+    HELP_IMG = ""
+    START_IMG = "https://te.legra.ph/file/20b6e74f7bc48a17d1e7f.jpg"
+    TIME_API_KEY = "4ID9HHBVU5L8"
+    INFOPIC = True
+    GENIUS_API_TOKEN = "e-8UdRQNrIssPyM"
 
 
 class Production(Config):
